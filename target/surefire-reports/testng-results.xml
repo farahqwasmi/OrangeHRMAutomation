@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-08-30T18:27:35 EET" name="Surefire suite" finished-at="2023-08-30T18:27:56 EET" duration-ms="20811">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner@197d671]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-08-30T18:27:35 EET" name="Surefire test" finished-at="2023-08-30T18:27:56 EET" duration-ms="20811">
+      <class name="Runner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner@197d671]" started-at="2023-08-30T18:27:35 EET" name="setUpClass" finished-at="2023-08-30T18:27:35 EET" duration-ms="103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@38fc5554]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner@197d671]" started-at="2023-08-30T18:27:35 EET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-08-30T18:27:56 EET" duration-ms="20690" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["As a  user I want to be able to upload attachment"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[be able to add a attachment to the Immigration section on my info page on  to orangeHRM site]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner@197d671]" started-at="2023-08-30T18:27:56 EET" name="tearDownClass" finished-at="2023-08-30T18:27:56 EET" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
