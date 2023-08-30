@@ -1,6 +1,6 @@
 Feature: be able to add leave to orangeHRM site
 
-  @Farahh
+  @Farah
   Scenario: As a  user I want to be able to add a leave
     Given Logged in user
     When Navigate to the leave page

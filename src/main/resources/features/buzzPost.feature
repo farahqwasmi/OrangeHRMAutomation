@@ -1,6 +1,6 @@
 Feature: User can add post to buzz
 
-  @Farahh
+  @Farah
   Scenario: As a  user I want to add post to Buzz
     Given Logged in user
     When User navigate to buzz

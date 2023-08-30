@@ -1,6 +1,6 @@
 Feature: Add admin user to orangeHRM site
 
-  @Farahh
+  @Farah
   Scenario: As a  user I want to be able ot add a admin user
     Given Logged in user
     When Navigate to add user page
